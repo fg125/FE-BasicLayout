@@ -1,0 +1,43 @@
+li{
+    background-color: #123456;
+    color: #FFFFFF;
+    float: left;
+    list-style: none;
+}
+.container{
+z-index: 99;
+position:fixed; /* 绝对定位，fixed是相对于浏览器窗口定位。 */ 
+
+    top:0; /* 距离窗口顶部距离 */ 
+
+    left:120px; /* 距离窗口左边的距离 */ 
+
+
+}
+.footer{padding-right:3.9%;background:#0F7884 
+;height: 200px
+}
+.banner{padding-right:3.9%;background:#0F7884 
+;height: 200px
+}
+.c1{
+    padding-right:3.9%;background:#ffff11
+;height: 400px
+}
+.as{
+    background-color: #123456;
+    color: #FFFFFF;
+    float: left;
+    list-style: none;
+}
+.zuo {
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
+.you {
+    height: 100px;
+    margin-left: 300px;
+    background-color: red;
+}

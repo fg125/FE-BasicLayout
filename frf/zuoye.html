@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>作业</title>
+    <link rel="stylesheet" href="css/zuoye.css" />
+   
+    </head>
+    <script>
+			window.onload=function(){
+				var oUl =document.getElementById('ul');
+				var oLi =oUl.getElementsByTagName('li');
+				for(var i=0;i<oLi.length;i++){
+					oLi[i].style.width = document.documentElement.clientWidth/(oLi.length+1)+'px';
+				}
+                var oL =document.getElementById('c1li');
+                oL.style.width=document.documentElement.clientWidth-300+'px';
+			}
+	</script>
+    <div class="banner" style="padding-left:5px;">
+    <div class="container">
+    <ul id="ul">
+       <li>clll</li>
+       <li>clll</li>
+       <li>clll</li>
+    </ul>
+    
+</div>
+   </div>
+   <div class="c1">
+       <ul>
+       <li style="width:50px">clll</li>
+       <li id="c1li" >clll</li>
+       <li style="width:50px">clll</li>
+    </ul>
+    </div>
+    <div class="c2">
+    <div class="zuo"></div>
+    <div class="you"></div>
+    </div>
+    <div class="footer"></div>
+</html>
